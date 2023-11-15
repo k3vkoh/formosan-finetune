@@ -17,6 +17,7 @@ for filename in os.listdir(folder_path):
         text_trained = pytesseract.image_to_string(image, lang=lang)
         text_untrained = pytesseract.image_to_string(image)
 
+        print(filename)
         print(text_trained.strip())
         print(text_untrained.strip())
         print('x'*20)
