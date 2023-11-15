@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# default = favorlang
+# change to your model
 modelName='favorlang'
 
 cd src/tesstrain

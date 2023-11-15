@@ -5,6 +5,7 @@ from PIL import Image
 # Set the path to the Tesseract executable if it's not in your PATH
 pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
 
+# change these for you language
 folder_path = ''
 lang = ''
 
