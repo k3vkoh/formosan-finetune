@@ -2,7 +2,7 @@
 
 modelName=''
 
-cd tesstrain
+cd src/tesstrain
 
 TESSDATA_PREFIX=../tesseract/tessdata gmake training MODEL_NAME=$modelName START_MODEL= eng TESSDATA=../tesseract/tessdata MAX_ITERATIONS=1000 
 
