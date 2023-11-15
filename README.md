@@ -29,3 +29,9 @@ To test the model, add the folder path to you test data and the language of choi
 ```bash
 python main.py
 ```
+
+## Note on Favorlang
+
+Some obsecure characters I have found in the corpus: 
+
+á, é, ë, í, ḡ, ʂ 
