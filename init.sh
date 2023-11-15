@@ -39,4 +39,4 @@ pip3 install -r requirements.txt
 tar -xzvf example/favorlang-ground-truth.tgz
 tar -xzvf example/favorlang-test.tgz
 
-mv favorlang-ground-truth tesstrain/data/
+mv favorlang-ground-truth src/tesstrain/data/
