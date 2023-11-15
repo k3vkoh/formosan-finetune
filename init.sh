@@ -6,16 +6,20 @@ python3 -m venv venv
 source venv/bin/activate
 
 mkdir src 
+
+# proj/src
 cd src
 
 git clone https://github.com/tesseract-ocr/tesstrain.git
 
+# proj/src/tesstrain
 cd tesstrain
 
 gmake
 
 gmake leptonica tesseract
 
+# proj/src
 cd ..
 
 git clone https://github.com/tesseract-ocr/tesseract.git
@@ -26,6 +30,9 @@ git clone https://github.com/tesseract-ocr/langdata.git
 mv tessdata_best/eng.traineddata tesseract/tessdata
 mkdir tesstrain/data
 mv langdata tesstrain/data/
+
+# proj/
+cd ..
 
 pip3 install -r requirements.txt
 
