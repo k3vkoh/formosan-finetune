@@ -28,7 +28,6 @@ for i, image in enumerate(images):
 		else:
 			english+=f"page {i+1} "
 			english+=text
-		breakpoint()
 
 with open('yami_yami.txt', 'w') as file:
     file.write(yami)
