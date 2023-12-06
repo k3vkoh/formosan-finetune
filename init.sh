@@ -39,4 +39,7 @@ pip3 install -r requirements.txt
 tar -xzvf example/favorlang-ground-truth.tgz
 tar -xzvf example/favorlang-test.tgz
 
+tar -xzvf example/yami-ground-truth.tgz
+
 mv favorlang-ground-truth src/tesstrain/data/
+mv yami-ground-truth src/tesstrain/data/

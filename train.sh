@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# default = favorlang
+# default = yami
+# favorlang is also ready to be trained
 # change to your model
-modelName='favorlang'
+modelName='yami'
 
 cd src/tesstrain
 
