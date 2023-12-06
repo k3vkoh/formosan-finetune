@@ -35,3 +35,28 @@ python main.py
 Some obsecure characters I have found in the corpus: 
 
 á, é, ë, í, ḡ, ʂ 
+
+## Note on Yami
+
+
+Note on Yami
+
+Vowels:
+Central vowels - ï, ə
+Consonants:
+Bilabial - ꞵ
+Retroflex/Cacuminal - ṭ, ḍ, ṇ, ḷ, ṣ
+Affricata - č (equivalent to ts’)
+Velar - ധ, η
+Glottal stop - ʔ
+
+
+Number of examples collected (how many pngs have that symbol):
+
+ə - 21
+č - 20
+ധ - 20
+η - 19
+ḷ - 20
+ā - 6
+ū - 2 
