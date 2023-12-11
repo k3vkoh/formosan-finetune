@@ -23,14 +23,18 @@ for i, image in enumerate(images):
 	if i in range(52,80):
 		text = pytesseract.image_to_string(image, lang=lang).replace('\n', ' ')
 		if i%2==0:
-			yami+=f"page {i+1} "
 			yami+=text
 		else:
-			english+=f"page {i+1} "
 			english+=text
 
-with open('yami_yami.txt', 'w') as file:
-    file.write(yami)
 
-with open('yami_english.txt', 'w') as file:
-    file.write(english)
+yami_list = yami.split('/')
+english_list = english.split('/')
+
+with open('yami.txt', 'w') as file:
+    for item in yami_list:
+        file.write(f"{item}\n")
+
+with open('english.txt', 'w') as file:
+    for item in english_list:
+        file.write(f"{item}\n")
