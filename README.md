@@ -47,7 +47,7 @@ Consonants:
 Bilabial - ꞵ
 Retroflex/Cacuminal - ṭ, ḍ, ṇ, ḷ, ṣ
 Affricata - č (equivalent to ts’)
-Velar - ധ, η
+Velar - ധ, ŋ
 Glottal stop - ʔ
 
 
@@ -56,7 +56,7 @@ Number of examples collected (how many pngs have that symbol):
 ə - 21
 č - 20
 ധ - 20
-η - 19
+ŋ - 19
 ḷ - 20
 ā - 6
 ū - 2 
