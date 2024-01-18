@@ -24,10 +24,16 @@ bash train.sh
 
 ## Test
 
-To test the model, add the folder path to you test data and the language of choice in main.py. Then, run
+To test the model, add the folder path to your test data and the language of choice in main.py. Then, run
 
 ```bash
 python main.py
+```
+
+To test the yami model and its ability to parse a large text, run 
+
+```bash
+python extract.py
 ```
 
 ## Note on Favorlang
